@@ -1,0 +1,89 @@
+@charset "utf-8";
+
+/* Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+a {
+    color: inherit;
+}
+
+/* Banner */
+.banner {
+    background: url("img/hoatdong1.jpg") no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+    text-align: center !important;
+    color: white !important;
+}
+
+/* Menu */
+.menu {
+    background: #2c3e50;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    color: #ffd700;
+}
+
+/* Slogan */
+.slogan {
+    background-color: rgb(248,249,250) !important;
+    text-align: center !important;
+    width: 100%;
+    padding: 7rem 3rem;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    padding: 0 3rem;
+}
+
+.block_3 {
+    width: 33.3333%;
+}
+
+/* Content */
+.content {
+    background-color: white !important;
+    text-align: center !important;
+    width: 100%;
+    padding: 7rem 3rem;
+}
+
+/* Footer */
+.footer {
+    background-color: black !important;
+    text-align: center !important;
+    color: white;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.footer a:hover {
+    color: red;
+}
+.news {
+  max-width: 900px;      /* Giới hạn chiều rộng */
+  margin: 20px auto;     /* Căn giữa */
+  line-height: 1.6;      /* Dãn dòng cho dễ đọc */
+  text-align: center;    /* Căn giữa chữ */
+  font-size: 18px;
+  word-wrap: break-word; /* Chống tràn chữ */
+}
